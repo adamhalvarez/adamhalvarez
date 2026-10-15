@@ -1,16 +1,16 @@
-## Hi there 👋
+# Adam Alvarez
 
-<!--
-**adamhalvarez/adamhalvarez** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Analytics and operations at Agilent Technologies: metric governance, data validation, Qlik. Outside work I build small public records systems on one set of rails: scheduled Python pipelines, governed Postgres stores, and static read surfaces that rebuild themselves.
 
-Here are some ideas to get you started:
+**Public here**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **filings-ledger**: a Next.js read surface over a Postgres store of lobbying disclosures and federal contract awards. Change ledger, per entity pages and feeds, permalinks with cite blocks, CSV and JSON exports, and a methodology page that says what each number is and is not.
+- **agenda-ledger**: a capture pipeline for local governing bodies (Legistar, Granicus, PrimeGov, and PDF directories) that stores every agenda and attachment with a verifiable hash chain, detects changes, and keeps all judgment in a human review lane. Tests per adapter, Supabase migrations.
+
+**How the work runs**
+
+Discovery step first, approval, then build, then a verified live run before anything merges. Curation stays human; the claim a curated row makes about its source is checked mechanically. Every scheduled run is gated by a self test that blocks publication when a check fails.
+
+Other repos (the daily scanner, an events sampling lane, an operations cockpit, a live judging PWA, an iPad photo booth) are private; ask for a walkthrough.
+
+linkedin.com/in/adamhalvarez
