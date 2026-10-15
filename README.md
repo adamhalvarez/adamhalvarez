@@ -1,6 +1,6 @@
 # Adam Alvarez
 
-Analytics and operations at Agilent Technologies: metric governance, data validation, Qlik. Outside work I build small public records systems on one set of rails: scheduled Python pipelines, governed Postgres stores, and static read surfaces that rebuild themselves.
+Analytics and operations. Metric governance, data validation, dashboards. I build small public records systems on one set of rails: scheduled Python pipelines, governed Postgres stores, and static read surfaces that rebuild themselves.
 
 **Public here**
 
@@ -11,6 +11,4 @@ Analytics and operations at Agilent Technologies: metric governance, data valida
 
 Discovery step first, approval, then build, then a verified live run before anything merges. Curation stays human; the claim a curated row makes about its source is checked mechanically. Every scheduled run is gated by a self test that blocks publication when a check fails.
 
-Other repos (the daily scanner, an events sampling lane, an operations cockpit, a live judging PWA, an iPad photo booth) are private; ask for a walkthrough.
-
-linkedin.com/in/adamhalvarez
+Other repos (the daily scanner, an events sampling lane, an operations cockpit, a live judging PWA, a tablet photo booth) are private; ask for a walkthrough.
